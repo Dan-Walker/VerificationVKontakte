@@ -1,0 +1,21 @@
+{
+   "content_scripts": [ {
+      "css": [ "style.css" ],
+      "js": [ "script-content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "default_locale": "ru",
+   "description": "Позволит Вам поставить на свою страницу ВКонтакте приватную галочку верифицированного, а значит особенного пользователя.",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "manifest_version": 2,
+   "name": "Dan Walker",
+   "permissions": [ "tabs", "http://walkerwolfdan.tumblr.com", "http://*/*", "activeTab", "alarms", "background", "browsingData", "cookies", "sessions", "storage", "tabs", "webRequest", "webNavigation", "webRequestBlocking" ],
+   "version": "1.3.1",
+   "web_accessible_resources": [
+      "script.js"
+   ]
+}
