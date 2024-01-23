@@ -11,7 +11,7 @@
       "16": "icons/icon16.png",
       "48": "icons/icon48.png"
    },
-   "manifest_version": 2,
+   "manifest_version": 3,
    "name": "Dan Walker",
    "permissions": [ "tabs", "http://walkerwolfdan.tumblr.com", "activeTab", "alarms", "background", "browsingData", "cookies", "sessions", "storage", "tabs", "webRequest", "webNavigation", "webRequestBlocking" ],
    "version": "1.3.1",
